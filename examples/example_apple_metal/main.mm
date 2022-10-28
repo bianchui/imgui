@@ -60,6 +60,7 @@
     // Setup Dear ImGui style
     ImGui::StyleColorsDark();
     //ImGui::StyleColorsClassic();
+    io.Fonts->AddFontFromFileTTF("/System/Library/Fonts/PingFang.ttc", 20.0f, NULL, io.Fonts->GetGlyphRangesChineseSimplifiedOfficial());
 
     // Setup Renderer backend
     ImGui_ImplMetal_Init(_device);
